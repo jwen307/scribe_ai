@@ -103,7 +103,7 @@ def get_note(transcription):
     f"input: {transcription}",
     "output: ",
     ]
-
+ 
     response = model.generate_content(prompt_parts)
     #print(response.text)
     return response.text

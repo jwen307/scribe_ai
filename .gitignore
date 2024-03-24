@@ -162,6 +162,7 @@ cython_debug/
 
 
 # Ignore all .env files
-.env
-frontend/.env
-frontend/lib/env/
+*.env
+*.g.dart
+#frontend/lib/env/env.g.dart
+#frontend/lib/env/env.dart
